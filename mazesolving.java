@@ -60,7 +60,7 @@ public class mazesolving {
 								System.out.print("X");
 								break;
 							case SOLUTION:
-								System.out.print("O");
+								System.out.print("\033[30;47mO\033[0m");
 								break;
 
 						}
